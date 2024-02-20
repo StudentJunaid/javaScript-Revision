@@ -33,4 +33,34 @@ function userloggedIn(username = "jerry"){
 }
 
 // console.log(userloggedIn('jerry'))
-console.log(userloggedIn())
+// console.log(userloggedIn())
+
+
+function calculatecardprice(val1,val2,...num1){
+    return num1
+}
+
+// console.log(calculatecardprice(200,300,400,500,600))
+
+const user = {
+    username: "jerry",
+    prices: 999
+}
+
+function handleObject(anyobject){
+      console.log(`username is ${anyobject.username} and doller is ${anyobject.price}`)
+}
+
+// handleObject(user)
+handleObject({
+    username: "same",
+    price: 1000
+})
+
+const myarray = [200,300,400,600]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+console.log(returnSecondValue(myarray))
