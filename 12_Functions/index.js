@@ -26,7 +26,7 @@ const result = addTwonumber(2,5)
 
 function userloggedIn(username = "jerry"){
     if(!username){
-        console.log("please enter a user code")
+        // console.log("please enter a user code")
         return
     }
     return `${username} just logged in`
@@ -48,10 +48,10 @@ const user = {
 }
 
 function handleObject(anyobject){
-      console.log(`username is ${anyobject.username} and doller is ${anyobject.price}`)
+    //   console.log(`username is ${anyobject.username} and doller is ${anyobject.price}`)
 }
 
-// handleObject(user)
+handleObject(user)
 handleObject({
     username: "same",
     price: 1000
@@ -63,4 +63,4 @@ function returnSecondValue(getArray){
     return getArray[1]
 }
 
-console.log(returnSecondValue(myarray))
+// console.log(returnSecondValue(myarray))
