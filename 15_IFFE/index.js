@@ -7,11 +7,10 @@
 
 (function chai(){
     // Named IFFE
-    console.log(`DB CONNECTED`)
+    // console.log(`DB CONNECTED`)
 })(); // we need to use semicolen aftter IFFE if we need to use another IFFE and it's necessery
 
 ((name)=>{
     // UnNamed IFFE
-    console.log(`DB CONNECTED Two ${name}`)
+    // console.log(`DB CONNECTED Two ${name}`)
 })("Cherry")
-
