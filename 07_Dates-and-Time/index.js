@@ -28,12 +28,12 @@ let mydatee = new Date(myTimeStemp)
 // console.log(Math.floor(Date.now()/1000))
 
 let newDate = new Date();
-console.log(newDate) 
+// console.log(newDate.toLocaleString()) 
 console.log(newDate.getDay() + 1) // add + 1 to avoiding 0
-console.log(newDate.getMonth()) 
+console.log(newDate.getMonth() + 1) 
   
 // `${newDate.getDay()} is and time and so on ..............................................`
 
-newDate.toLocaleString('default',{
-    weekday: "long"
-})
+// newDate.toLocaleString('default',{
+//     weekday: "long"
+// })

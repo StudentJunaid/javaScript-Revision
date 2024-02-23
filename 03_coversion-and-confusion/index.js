@@ -1,9 +1,9 @@
-let score = "123jerry"
+// let score = "123jerry"
 
 // console.log(typeof score)
 // console.log(typeof (score))
 
-let valueInNum = Number(score)
+// let valueInNum = Number(score)
 
 // console.log(typeof valueInNum)
 // console.log(valueInNum)   // NaN
@@ -12,9 +12,9 @@ let valueInNum = Number(score)
 // "33abc" => NaN
 // true => 1; false => 0;
 
-let isloggedIn = "jerry";
+// let isloggedIn = "jerry";
 
-let booleanisloggedIn = Boolean(isloggedIn)
+// let booleanisloggedIn = Boolean(isloggedIn)
 
 // console.log(booleanisloggedIn)
 
@@ -32,8 +32,8 @@ let someNumber = 33;
 
 // ************************************ Opretions ******************************************
 
-let value = 3;
-let negValue = -value;
+// let value = 3;
+// let negValue = -value;
 // console.log(negValue)
 
 // console.log(2 + 2)
@@ -44,10 +44,10 @@ let negValue = -value;
 // console.log(2 % 3)
 
 
-let str1 = "hey";
-let str2 = " Berry"
+// let str1 = "hey";
+// let str2 = " Berry"
 
-let str3 = str1 + str2;
+// let str3 = str1 + str2;
 // console.log(str3)
 
 // console.log("1" + 2)
@@ -56,17 +56,17 @@ let str3 = str1 + str2;
 // console.log(1 + 2 + "2") 
 // console.log(1 + 2 + "2" + 2)  
 
-// console.log((2 + 4) * 5 % 3)
+// console.log((2 + 4) * 5 % 3)    
 
 
 // console.log(+true);
 // console.log(+"");
 
-let num1 = num2 = num3 = 2 + 2;
+let num1 = num2 = num3 =     2 + 2;
 // console.log(num1,num2,num3) ;
 
-let gameCounter = 100;
-++gameCounter;
+// let gameCounter = 100;
+// ++gameCounter;
 // console.log(gameCounter)
 
 
@@ -105,3 +105,4 @@ const b = ++a;
 
 // console.log("2" == 2)
 // console.log("2" === 2) // Strict Check
+

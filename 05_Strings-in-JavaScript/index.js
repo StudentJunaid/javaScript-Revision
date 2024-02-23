@@ -1,5 +1,5 @@
-const name = "jerry "
-const marks = 50;
+// const name = "jerry "
+// const marks = 50;
 
 
 // console.log(name + marks + " value") // Not a good way to print string
@@ -26,7 +26,7 @@ const gamename = "Jerry berry"
 // const checking = "chiefminister"
 
 // const checking1 = checking.slice(0,5)
-// const checking2 = checking.slice(-5,13)
+// const checking2 = checking.slice(-8,13)
 // console.log(checking1,checking2)
 
 // const newstring1 = "   Jerry.   "
@@ -39,5 +39,5 @@ const gamename = "Jerry berry"
 
 // console.log(url.includes('Jerry'))
 
-console.log(gamename.split(' '))
+// console.log(gamename.split(' '))
 

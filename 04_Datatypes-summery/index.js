@@ -10,8 +10,8 @@
 // const outSideTemp = null;
 // let userEmail; 
 
-const id = Symbol('123')
-const anotherid = Symbol('123')
+// const id = Symbol('123')
+// const anotherid = Symbol('123')
  
 // console.log(id != anotherid);
 
@@ -41,9 +41,9 @@ const myFunction = function(){
 
 // myFunction()
 
-// console.log(typeof myFunction)  // type function
 // console.log(typeof hero)   // type Object
 // console.log(typeof newObj)  // type Object
+// console.log(typeof myFunction)  // type function
 
 
 
