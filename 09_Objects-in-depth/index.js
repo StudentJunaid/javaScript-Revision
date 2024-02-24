@@ -5,6 +5,8 @@
 
 const mySym = Symbol("key1")
 
+// console.log(mySym)
+
 const jsUser = {
     name: "Jerry",
     [mySym]: "myKey1",
@@ -30,14 +32,15 @@ const jsUser = {
 // jsUser.email = "Cerry@gmail.com"
 // console.log(jsUser)
 
-jsUser.greeting = function(){
-    console.log("hello World")
-}
+// jsUser.greeting = function(){
+//     console.log("hello World")
+// }
 // console.log(jsUser.greeting)
-console.log(jsUser.greeting())
+// console.log(jsUser.greeting())
 
-jsUser.greeting1 = function(){
-    console.log(`Hello js user ${this.name}`)
-}
+// jsUser.greeting1 = function(){
+//     console.log(`Hello js user ${this.name}`)
+// }
 
-console.log(jsUser.greeting1())
+// console.log(jsUser.greeting1())
+// console.log(jsUser)

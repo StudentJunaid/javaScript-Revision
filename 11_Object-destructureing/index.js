@@ -9,7 +9,7 @@ const course = {
 // const {Teacher} = course;
 // console.log(Teacher)
 
-const {Teacher: Teach} = course;
+// const {Teacher: Teach} = course;
 // console.log(Teach)
 
 // Json 

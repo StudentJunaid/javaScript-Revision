@@ -7,6 +7,13 @@ olaUser.id = "123abc"
 olaUser.isloggedIn = false;
 olaUser.Num = "01234"
 
+// const olaUser = {
+//     name:  "Yummy",
+//     id: "123abc",
+//     isloggedIn: false,
+//     Num:  "01234",
+// }   
+
 // console.log(olaUser)
 
 // console.log(Object.keys(olaUser))
@@ -34,25 +41,26 @@ const obj3 = {7: "y", 8: "x", 9: "z"}
 
 // const obj4 = {obj1 , obj2}  // Wrong syntex
 
+
 // const obj4 = Object.assign({},obj1,obj2,obj3) 
 
-const obj4 = {...obj1, ...obj2, ...obj3}
+// const obj4 = {...obj1, ...obj2, ...obj3}
 // console.log(obj4)
 
-const user = [
-    {
-        name: "jerry",
-        email: "berry"
-    },
-    {
-        name: "herry",
-        email: "herry"
-    },
-    {
-        name: "jerry",
-        email: "berry"
-    },
-]
+// const user = [
+//     {
+//         name: "jerry",
+//         email: "berry"
+//     },
+//     {
+//         name: "herry",
+//         email: "herry"
+//     },
+//     {
+//         name: "jerry",
+//         email: "berry"
+//     },
+// ]
 
 // console.log(user[1].email)
 
