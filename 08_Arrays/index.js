@@ -5,19 +5,19 @@
 
 // console.log(array1[3])
 
-// const MyArry = new Array(1,2,3,4,5,6)
+const MyArry = new Array(1,2,3,4,5,6)
 
 // console.log(MyArry[4])
 
 // Array Method
 
 // MyArry.push(7)
-// MyArry.push(8)
-// MyArry.pop()
+// MyArry.push(8) // it will add last value in  array
+// MyArry.pop()  // it will pop the last value off array
 
 
-// MyArry.unshift(9) 
-// MyArry.shift()
+// MyArry.unshift(9) // it will add  first value in  array
+// MyArry.shift() // it will pop the first value off array
 // console.log(MyArry)
 
 
@@ -50,10 +50,12 @@
 const marval_hero = ["thor","Ironmen","spiderman","MyWomen"]
 const dc_heroes = ["thor","flash","batman"]
 
+
 // marval_hero.push(dc_heroes)
 
 // console.log(marval_hero)
 // console.log(marval_hero[3][2])
+
 
 // const allhero = marval_hero.concat(dc_heroes)
 // console.log(allhero)

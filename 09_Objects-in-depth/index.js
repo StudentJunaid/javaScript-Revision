@@ -15,7 +15,7 @@ const jsUser = {
     location: "dehli",
     email: "jery@gmail",
     isLoggedIn: false,
-    lastLoggedIn: ["Monday","Wednesday"]
+    lastLoggedIn: ["Monday", "Wednesday"],
 }
 
 // console.log(jsUser.name)
@@ -28,8 +28,9 @@ const jsUser = {
 
 
 // console.log(jsUser.email = "Berry@gmail.com")
-// Object.freeze(jsUser)
+// Object.freeze(jsUser) // it will freex the array we can't change anything in array after that
 // jsUser.email = "Cerry@gmail.com"
+// console.log(jsUser.isLoggedIn = true)
 // console.log(jsUser)
 
 // jsUser.greeting = function(){
@@ -37,6 +38,7 @@ const jsUser = {
 // }
 // console.log(jsUser.greeting)
 // console.log(jsUser.greeting())
+// console.log(jsUser)
 
 // jsUser.greeting1 = function(){
 //     console.log(`Hello js user ${this.name}`)
@@ -44,3 +46,4 @@ const jsUser = {
 
 // console.log(jsUser.greeting1())
 // console.log(jsUser)
+
